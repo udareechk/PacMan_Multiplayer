@@ -87,6 +87,11 @@ public class PacManGame {
         p1.updateScore(color);
     }
     
+    public ArrayList<PacManPlayer> getPlayers(){
+    
+        return players;
+    }
+    
     public String getBoardState(){
         
         HashMap<Integer, String> dots = board.getBoard();
